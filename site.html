@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="shopsite" content="with=device-width,inital-scale=1.0">
+    <title>Nice Trendz Demo-site</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,100&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="images/nicelogo2.png" > </a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-window-close" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="">home</a></li>
+                    <li><a href="">about</a></li>
+                    <li><a href="">maker</a></li>
+                    <li><a href="">contact</a></li>
+                    <li><a href="">social</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()" ></i>
+            <img src="images/qrcodenicetrendz.png" alt="Location" width="5">
+        </nav>
+        
+    <div class="text-box">
+        <h1>Best tailoring and clothing shop in town</h1>
+        <p>This site is just a demo of nice trendz site <br> but offical one</p>
+        <a href="#" class="hero-btn">Click to know more</a>
+    </div>    
+
+
+    </section>
+
+
+
+
+    <!----shoping list------->
+<section class="shoping">
+    <hi>Things you can buy</hi>
+    <p>Apart from cloth piece you have option to buy readymade stuff</p>
+    <div class="row">
+        <div class="things">
+            <h3>Shirt</h3>
+            <p>We have wide range of shirt pattens and colors to choose from, apart from that we also sew your shirt with whichever design you want</p>
+        </div>
+        <div class="things">
+            <h3>Suit</h3>
+            <p>We have wide range of suits design and colors to choose from, apart from that we also sew your suits with whichever design you want</p>
+        </div>
+        <div class="things">
+            <h3>Ethics wear</h3>
+            <p>We have wide range of traditional pattens and colors to choose from, apart from that we also alter them with whichever design you want</p>
+        </div>
+
+
+</section>
+
+
+
+
+
+<!--------------javascript for toggle----------->
+<script>
+    var navLinks = document.getElementsById("navLinks");
+
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }    
+
+</script>
+
+
+</body>
+
+
+
+
+
+
+
+
+
+
+</html>
